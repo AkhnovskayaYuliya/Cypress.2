@@ -1,0 +1,5 @@
+{
+  "hallOpening": "#start-sales > div:nth-child(2) > ul > li",
+
+  "openingButton": "#start-sales > .text-center > .conf-step__button"
+}
