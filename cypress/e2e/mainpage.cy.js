@@ -1,5 +1,4 @@
-import selector from "../fixtures/selectorsMainPage"
-
+import selector from "../fixtures/selectorsMainPage";
 
 describe("Site for buying movie tickets", () => {
   it("Main page display", () => {
