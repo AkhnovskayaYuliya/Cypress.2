@@ -1,4 +1,4 @@
 {
   "email": "[name='email']",
-  "password": "[name='password']"
+  "password": "[for=pwd] > .login__input"
 }
