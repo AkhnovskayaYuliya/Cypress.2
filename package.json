@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "test:booking": "npx cypress run  --record --group booking --spec \"**/cypress/e2e/buyingTickets.cy.js\" --ci-build-id 3",
-    "test:login": "npx cypress run  --record --group login --spec \"**/cypress/e2e/loginadmin.cy.js\" --ci-build-id 3",
-    "test:displaying": "npx cypress run  --record --group mainpage --spec \"**/cypress/e2e/mainpage.cy.js\" --ci-build-id 3",
+    "test:booking": "npx cypress run  --record --key 8c157ae5-a917-4ade-9c4e-587c0e4ab48d --group booking --spec \"**/cypress/e2e/buyingTickets.cy.js\" --ci-build-id 6",
+    "test:login": "npx cypress run  --record --key 8c157ae5-a917-4ade-9c4e-587c0e4ab48d --group login --spec \"**/cypress/e2e/loginadmin.cy.js\" --ci-build-id 6",
+    "test:displaying": "npx cypress run  --record --key 8c157ae5-a917-4ade-9c4e-587c0e4ab48d --group mainpage --spec \"**/cypress/e2e/mainpage.cy.js\" --ci-build-id 6",
     "test:parallel": "run-p -c test:booking test:login test:displaying"
   },
   "repository": {
