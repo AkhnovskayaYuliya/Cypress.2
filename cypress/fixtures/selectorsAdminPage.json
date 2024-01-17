@@ -1,5 +1,11 @@
 {
   "hallOpening": "#start-sales > div:nth-child(2) > ul > li",
 
-  "openingButton": "#start-sales > .text-center > .conf-step__button"
+  "openingButton": "#start-sales > .text-center > .conf-step__button",
+
+  "textContain": ".text-center > .conf-step__paragraph",
+  "createHallButton": ".button__add-hall",
+  "AddNameHall": "form > .conf-step__label > .conf-step__input",
+  "AddNameButton": "form > .conf-step__buttons > .conf-step__button-accent",
+  "addedHall": ".conf-step__list > :nth-child(5)"
 }

@@ -1,5 +1,5 @@
-import login from "../fixtures/loginData";
-import selector from "../fixtures/selectorsLoginAdmin"
+import login from "../../fixtures/loginData";
+import selector from "../../fixtures/selectorsLoginAdmin";
 
 describe("log in admin", () => {
   beforeEach(() => {
@@ -18,14 +18,14 @@ describe("log in admin", () => {
   });
 
   it("Log in with empty email", () => {
-    cy.login(" ", login.validPassword)
+    cy.login(" ", login.validPassword);
     cy.get(selector.email)
       .then(($el) => $el[0].checkValidity())
       .should("be.false");
-  })
+  });
 
   it("Log in with empty password", () => {
     cy.login(login.validEmail, " ");
     cy.contains("Ошибка авторизации!").should("be.visible");
-  })
+  });
 });

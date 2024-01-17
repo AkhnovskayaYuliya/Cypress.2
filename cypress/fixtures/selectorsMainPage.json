@@ -1,7 +1,10 @@
 {
   "date": ".page-nav__day",
   "header": ".page-header__title",
-  "addedHall": ":nth-child(3) > :nth-child(3) > .movie-seances__hall-title",
-  "timeSession": ":nth-child(2) > :nth-child(3) > .movie-seances__list > .movie-seances__time-block > .movie-seances__time",
-  "bookingButton": ".acceptin-button"
+  "addedHall": ":nth-child(2) > :nth-child(3) > .movie-seances__hall-title",
+  "timeSessionAddedMovie": ":nth-child(2) > :nth-child(3) > .movie-seances__list > .movie-seances__time-block > .movie-seances__time",
+  "bookingButton": ".acceptin-button",
+  "timeSessionZootopia": ".movie-seances__time",
+  "VIPSeats": ".buying-scheme__chair_vip",
+  "unavailable": ".buying-scheme__chair_taken"
 }
